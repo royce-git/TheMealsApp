@@ -5,7 +5,6 @@ import { HeaderButtons, Item } from 'react-navigation-header-buttons';
 import { MEALS } from '../data/dummy-data'
 import HeaderButton from '../components/HeaderButton';
 import DefaultText from '../components/DefaultText';
-import { List } from 'react-native-paper';
 import { useSelector, useDispatch } from 'react-redux';
 import { toggleFavorite } from '../store/actions/mealsAction';
 

@@ -13,7 +13,7 @@ const CategoryMealsScreen = props => {
 
     const availableMeals = useSelector(state => state.meals.filteredMeals);
 
-    const selectedCategory = CATEGORIES.find(cat => cat.id === catId);
+    // const selectedCategory = CATEGORIES.find(cat => cat.id === catId);
 
     const displayedMeals = availableMeals.filter(meal => meal.categoryIds.indexOf(catId) >= 0
     );
@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     content: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
     }
 })
 

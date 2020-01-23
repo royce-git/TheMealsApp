@@ -14,7 +14,7 @@ const CategoryGridTile = props => {
                 style={{flex: 1}}
                 onPress={props.onSelect}>
                             <View style={{ ...styles.container, ...{backgroundColor: props.color}}}>
-                                    <Image style={{height: 50, width: 50}} source={props.image} />
+                                    <Image style={{height: 80, width: 80,}} source={props.image} />
                                     <Text style={styles.title} numberOfLines={2}>{props.title}</Text>
                             </View>
             </TouchableCmp>
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
         shadowOffset: {width: 0, height: 2},
         padding: 15,
         justifyContent: 'flex-end',
-        alignItems: 'flex-end'
+        alignItems: 'center'
     },
     title: {
         fontFamily: 'open-sans-bold',

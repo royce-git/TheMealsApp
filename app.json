@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "A recipe app I am making with the help of a Udemy course and my own styling",
+    "githubUrl": "https://github.com/royce-git/TheMealsApp"
   }
 }

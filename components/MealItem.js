@@ -16,7 +16,7 @@ const MealItem = props => {
                         </ImageBackground>
                     </View>
                     <View style={{...styles.mealRow, ...styles.mealDetails}}>
-                        <DefaultText>{props.duration}m</DefaultText>
+                        <DefaultText>{props.duration}mins</DefaultText>
                         <DefaultText>{props.complexity.toUpperCase()}</DefaultText>
                         <DefaultText>{props.affordability.toUpperCase()}</DefaultText>
 
@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     },
     mealDetails: {
         paddingHorizontal: 10,
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
         alignItems: 'center',
         height: '15%'
     },

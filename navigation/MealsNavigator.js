@@ -108,9 +108,10 @@ const MainNavigator = createDrawerNavigator({
     contentOptions: {
         activeTintColor: Colors.accentColor,
         labelStyle: {
-            fontFamily: 'open-sans-bold'
+            fontFamily: 'open-sans-bold',
         }
-    }
+    },
+    drawerWidth: '33%',
 });
 
 export default createAppContainer(MainNavigator);

@@ -1,7 +1,7 @@
 import { isValidElement } from "react";
 
 class Meal {
-    constructor(id, categoryIds, title, affordability, complexity, imageUrl, duration, ingredients, steps, isGlutenFree, isVegan, isVegetarian, isLactoseFree) {
+    constructor(id, categoryIds, title, affordability, complexity, imageUrl, duration, ingredients, steps, isGlutenFree, isVegan, isVegetarian, isLactoseFree, portions) {
         this.id = id;
         this.categoryIds = categoryIds;
         this.title = title;
@@ -15,6 +15,7 @@ class Meal {
         this.isVegan = isVegan;
         this.isVegetarian = isVegetarian;
         this.isLactoseFree = isLactoseFree;
+        this.portions = portions;
     }
 }
 

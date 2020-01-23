@@ -3,16 +3,16 @@ import Meal from '../models/meal';
 
 
 export const CATEGORIES = [
-  new Category('c1', 'Italian', '#f5428d', require("../assets/icons/italian.png")),
+  new Category('c1', 'Italian', '#008c45', require("../assets/icons/italian.png")),
   new Category('c2', 'Quick & Easy', '#f54242', require("../assets/icons/time.png")),
   new Category('c3', 'Burgers', '#f5a442', require("../assets/icons/burger.png")),
   new Category('c4', 'German', '#f5d142', require("../assets/icons/architecture-and-city.png")),
   new Category('c5', 'Light & Lovely', '#368dff', require("../assets/icons/heart.png")),
-  new Category('c6', 'Exotic', '#41d95d', require("../assets/icons/wok.png")),
   new Category('c7', 'Breakfast', '#9eecff', require("../assets/icons/breakfast.png")),
+  new Category('c6', 'Exotic', '#41d95d', require("../assets/icons/wok.png")),
   new Category('c8', 'Asian', '#b9ffb0', require("../assets/icons/food.png")),
-  new Category('c9', 'French', '#ffc7ff', require("../assets/icons/paris.png")),
-  new Category('c10', 'Summer', '#47fced', require("../assets/icons/sun.png"))
+  new Category('c9', 'French', '#ef4135', require("../assets/icons/paris.png")),
+  new Category('c10', 'Summer', '#f5d142', require("../assets/icons/sun.png"))
 ];
 
 export const MEALS = [
@@ -44,7 +44,8 @@ export const MEALS = [
     false,
     true,
     true,
-    true
+    true,
+    '2'
   ),
 
   new Meal(
@@ -70,7 +71,8 @@ export const MEALS = [
     false,
     false,
     false,
-    false
+    false,
+    '1'
   ),
 
   new Meal(
@@ -99,7 +101,8 @@ export const MEALS = [
     false,
     false,
     false,
-    true
+    true,
+    '2'
   ),
 
   new Meal(
@@ -132,7 +135,8 @@ export const MEALS = [
     false,
     false,
     false,
-    false
+    false,
+    '4'
   ),
 
   new Meal(
@@ -164,7 +168,8 @@ export const MEALS = [
     true,
     false,
     true,
-    true
+    true,
+    '2'
   ),
 
   new Meal(
@@ -197,7 +202,8 @@ export const MEALS = [
     true,
     false,
     true,
-    false
+    false,
+    '2'
   ),
 
   new Meal(
@@ -226,7 +232,8 @@ export const MEALS = [
     true,
     false,
     true,
-    false
+    false,
+    '2'
   ),
 
   new Meal(
@@ -257,7 +264,8 @@ export const MEALS = [
     true,
     false,
     false,
-    true
+    true,
+    '4'
   ),
 
   new Meal(
@@ -304,7 +312,8 @@ export const MEALS = [
     true,
     false,
     true,
-    false
+    false,
+    '4'
   ),
   new Meal(
     'm10',
@@ -333,6 +342,7 @@ export const MEALS = [
     true,
     true,
     true,
-    true
+    true,
+    '2'
   )
 ];

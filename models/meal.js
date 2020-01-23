@@ -1,4 +1,4 @@
-import { isValidElement } from "react";
+//import { isValidElement } from "react";
 
 class Meal {
     constructor(id, categoryIds, title, affordability, complexity, imageUrl, duration, ingredients, steps, isGlutenFree, isVegan, isVegetarian, isLactoseFree, portions) {

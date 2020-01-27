@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8bbdd87d-2fac-4294-966a-05feef7782f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/CategoryGridTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/CategoryGridTile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/HeaderButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/HeaderButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constants/Colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/constants/Colors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/dummy-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/dummy-data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/CategoryMealsScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/CategoryMealsScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screens/MealDetailScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/screens/MealDetailScreen.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8bbdd87d-2fac-4294-966a-05feef7782f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8bbdd87d-2fac-4294-966a-05feef7782f4" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +13,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1384" />
-    <option name="width" value="543" />
+    <option name="x" value="1389" />
+    <option name="width" value="538" />
     <option name="height" value="1087" />
   </component>
   <component name="PropertiesComponent">
@@ -50,7 +48,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1384" y="0" width="543" height="1087" extended-state="0" />
+    <frame x="1389" y="0" width="538" height="1087" extended-state="0" />
     <layout>
       <window_info id="Captures" order="0" weight="0.25" />
       <window_info id="Project" order="1" />
